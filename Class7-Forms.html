@@ -1,0 +1,132 @@
+<html>
+  <head>
+    <title>Class-7th</title>
+  </head>
+  <body>
+    <form action="https://Google.com" method="post">
+      <p>Username:</p>
+      <input type="text" name="username" required /> <br />
+      <p>User_email:</p>
+      <input type="email" name="email" required /> <br />
+      <p>Password:</p>
+      <input type="password" name="password" required /> <br />
+      <br />
+
+      <textarea
+        name="comment"
+        id="comment"
+        cols="30"
+        rows="10"
+        placeholder="Suggestions/Feedback"
+        required
+      >
+      </textarea>
+      <p>Select your Gender:</p>
+      <input
+        type="radio"
+        name="Gender"
+        value="Male"
+        checked="checked"
+        required
+      />
+      Male
+      <input type="radio" name="Gender" value="Female" required />
+      Female
+      <input type="radio" name="Gender" value="Others" required />
+      Others
+      <p>Select your Activities</p>
+      <input type="checkbox" name="Activities" value="Working" /> Working
+      <input type="checkbox" name="Activities" value="Playing" /> Playing
+      <input type="checkbox" name="Activities" value="Development" />
+      Development
+      <input type="checkbox" name="Activities" value="Travelling" /> Travelling
+      <input type="checkbox" name="Activities" value="Social" /> Social
+      <p>Which Course you're Studying:</p>
+      <select name="Courses">
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JavaScript">JavaScript</option>
+        <option value="React.js">React.js</option>
+        <option value="Next.js">Next.js</option>
+        <option value="React-Native">React-Native</option>
+      </select>
+      <p>Phases you are working</p>
+      <select name="Field" size="4" multiple="multiple">
+        <option value="Requirement_Eng" >
+          Requirement_Eng
+        </option>
+        <option value="Planning" >Planning</option>
+        <option value="Designing" >Designing</option>
+        <option value="Development" >Development</option>
+        <option value="Testing" >Testing</option>
+        <option value="Implementation" >
+          Implementation
+        </option>
+        <option value="Documentation">Documentation</option>
+      </select>
+      <p>Upload your file</p>
+      <input type="file" name="user-file" value="Browse" /> <br />
+      <input type="submit" value="Upload" />
+      <p>Proceed to the form</p>
+      <input type="submit" name="submit" value="Submit" />
+      <p>Proceed the process by clicking on image button</p>
+      <input
+        type="image"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXSJPxOPbX0voamcJpqsVRA-J8vrwVJuVinEXLp8NhEA&s"
+        alt="Submit_Button_Image"
+        width="100"
+        height="20"
+      />
+      <br />
+      <br />
+      <button>
+        <img
+          src="https://media3.giphy.com/media/MbFaRTRxoucfCbmLSZ/200w.gif?cid=6c09b952du8pmiw7iircu9i6bvszy61pwktde1hyjnif0uxv&ep=v1_gifs_search&rid=200w.gif&ct=g"
+          alt="Add_image"
+          width="50"
+          height="50"
+        />
+      </button>
+      <input type="hidden" name="bookmark" value="add" /> <br />
+      <br />
+      <fieldset>
+        <legend>Bio_Data:</legend>
+        <label>Full_Name: <input type="text" name="name" required /></label>
+        <br />
+        <label
+          >Father_Name: <input type="text" name="Father_Name" required
+        /></label>
+        <br />
+        <label
+          >Mobile_No: <input type="number" name="Mobile_No" required
+        /></label>
+        <br />
+        <label
+          >Telephone: <input type="number" name="Telephone" required />
+        </label>
+        <br />
+        <label>Address: <input type="text" name="Address" required /></label>
+        <br />
+        <label>Date_of_Birth:</label>
+        <input type="date" name="Dob" />
+        <br />
+        <label>Time_of_Birth:</label>
+        <input type="time" name="Dot" /><br />
+        <input type="submit" value="Submit" />
+      </fieldset>
+      <p>Please enter your website address</p>
+      <input type="url" name="website" /> <br />
+      <input type="submit" value="Submit" />
+      <p>Search any website from here</p>
+      <input
+        type="search"
+        name="search"
+        placeholder="Enter Website's Keyword"
+      />
+      <input type="submit" value="Search" /><br />
+
+      <label>Check volume:</label>
+      <input type="range" name="range" placeholder="%" />
+    </form>
+  </body>
+</html>

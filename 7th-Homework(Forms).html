@@ -1,0 +1,136 @@
+<html>
+  <head>
+    <title>7th-Homework(forms)</title>
+  </head>
+  <body>
+    <h1><abbr title="Saylani Mass Information Technology">SMIT</abbr></h1>
+    <h1><abbr title="Muhammad Subhan Khan">MSK</abbr></h1>
+    <form action="https://Google.com" method="post">
+      <fieldset>
+        <legend><strong> Sign-up </strong></legend>
+        <input type="text" name="Firstname" placeholder="Firstname" required />
+        <br />
+        <br />
+        <input type="text" name="Lastname" placeholder="Lastname" required />
+        <br />
+        <br />
+        <input type="email" name="Email" placeholder="Email" required /> <br />
+        <br />
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          required
+        />
+        <br />
+        <br />
+        <input type="submit" value="Sign-up" />
+      </fieldset>
+      <hr />
+      <fieldset>
+        <legend><strong> Log-in </strong></legend>
+        <input type="email" name="username" placeholder="Username" required />
+        <br />
+        <br />
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          required
+        />
+        <br />
+        <br />
+        <input type="submit" value="Log-in" />
+      </fieldset>
+      <hr>
+      <fieldset>
+        <legend><strong> Student-Info </strong></legend>
+        <label>Full_Name: <input type="text" name="name" required /></label>
+        <br />
+        <br />
+        <label
+          >Father_Name: <input type="text" name="Father_Name" required
+        /></label>
+        <br />
+        <br />
+        <label
+          >Mobile_No: <input type="number" name="Mobile_No" required
+        /></label>
+        <br />
+        <br />
+        <label
+          >Telephone: <input type="number" name="Telephone" required />
+        </label>
+        <br />
+        <br />
+        <label>Address: <input type="text" name="Address" required /></label>
+        <br />
+        <br />
+        <label>Date_of_Birth:</label>
+        <input type="date" name="Dob" />
+        <br />
+        <br />
+        <label for="">Gender:</label>
+        <input type="radio" name="Gender" value="Male" required />
+        <label for="">Male</label>
+        <input type="radio" name="Gender" value="Female" required />
+        <label for="">Female</label>
+        <input type="radio" name="Gender" value="Others" required />
+        Others
+        <br />
+        <p>Your Current Activities:</p>
+        <input type="checkbox" name="Activities" value="Working" /> Working
+        <input type="checkbox" name="Activities" value="Playing" /> Playing
+        <input type="checkbox" name="Activities" value="Studying" />
+        Studying
+        <input type="checkbox" name="Activities" value="Travelling" />
+        Travelling
+        <input type="checkbox" name="Activities" value="Social" /> Social <br />
+        <br />
+        <input type="submit" value="Submit" />
+      </fieldset>
+      <hr />
+      <fieldset>
+        <legend><strong> Course-Info </strong></legend>
+        <p><b>Which Course you want to Enroll:</b></p>
+        <select name="Courses">
+          <option value="Web & Mobile Application">
+            Web & Mobile Application
+          </option>
+          <option value="CyberSecurity">CyberSecurity</option>
+          <option value="Digital Marketing">Digital Marketing</option>
+          <option value="Computer Networks">Computer Networks</option>
+          <option value="C#">E-commerce</option>
+          <option value="Datasciences">Datasciences</option>
+        </select>
+        <p><b>What Have you Studied:</b></p>
+        <select name="Field" size="3" multiple="multiple">
+          <option value="HTML,CSS,JavaScript">HTML,CSS,JavaScript</option>
+          <option value="C++">C++</option>
+          <option value="C">C</option>
+          <option value="Java">Java</option>
+          <option value="Python">Python</option>
+          <option value="C#">C#</option>
+        </select>
+        <br />
+        <br />
+        <textarea
+          name="comment"
+          id="comment"
+          cols="50"
+          rows="10"
+          placeholder="Comments (Optional)"
+        >
+        </textarea>
+        <br /><br />
+        <input
+          type="image"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXSJPxOPbX0voamcJpqsVRA-J8vrwVJuVinEXLp8NhEA&s"
+          alt="Submit_Button_Image"
+          width="100"
+          height="20"
+        />
+      </fieldset>
+    </form>
+  </body>
+</html>
